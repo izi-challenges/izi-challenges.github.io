@@ -1,0 +1,252 @@
+:root{
+    --title-text: rgb(10, 63, 78);
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NEW CSS -> START */
+
+.sectionSize{
+    min-height: 55vh;
+    padding-top: 45vh;
+    /* background-color: rgb(73, 163, 121); */
+}
+
+.background{
+    background-color: rgb(20, 35, 39);
+}
+
+.top-container{
+    color: #fff;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3.1em;
+    background: #fff;
+    z-index: 1;
+
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+}
+  
+#menu li {
+    list-style: none;
+
+    padding: 1em 0;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+#menu a {
+    font-size: 1.3em;
+}  
+
+#menu > li {
+    margin-top: 0.2em;
+    padding: 0.5em 1em;
+}
+
+#menu-toggle {
+    position: fixed;
+    display: block;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.background a {
+    color: #e4e39d;
+    text-decoration: none;
+}
+
+.background a:hover {
+    color: #bbb936;
+}
+
+.proj-container a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.proj-container a:hover{
+    color: gray;
+}
+
+#home-logo {
+    position: fixed;
+    left: 1.2em;
+}
+  
+#home-logo a {
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.3em;
+    color: var(--title-text);
+}
+
+
+/* NEW CSS -> END */
+
+/* #menu {
+    position: fixed;
+    top: 3.1em;
+    height: 100vh;
+    width: 60vw;
+    right: -60vw;
+    flex-direction: column;
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+} */
+
+/* #navbar{
+    position: fixed;
+    text-align: left;
+    width: 100%;
+    background-color: #000000;
+}
+
+#navbar li{
+    display: inline-block;
+    margin: 20px;
+    color: #FFFFFF;
+}
+
+#navbar li a,
+#navbar li a:active,
+#navbar li a:visited{
+    color: #FFFFFF;
+}
+
+#navbar li a:hover{
+    color: rgb(227, 230, 86);
+} */
+
+.proj-container{
+    background: #fff;
+    width: 300px;
+
+    display: block;
+    position: relative;
+    /* padding: 16px; */
+    border-radius: 4px;
+
+    margin: auto;
+    /* width: 50%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.projects{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    color: var(--title-text)
+}
+
+.projects p{
+    margin: 30px;
+    font-weight: bold;
+}
+
+/* a:visited{
+    color: rgb(167, 0, 0);
+} */
+
+/* .projects a{
+    color: #000000;
+} */
+
+/* .projects a:visited{
+    color: rgb(167, 0, 0);
+}
+
+.projects a:hover{
+    color: gray;
+} */
+
+.contact{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    color: var(--title-text);
+    /* background-color: rgb(73, 163, 121); */
+}
+
+.contact li{
+    margin: 35px;
+    display: inline-block;
+}
+
+/* .contact a{
+    color: #000000;
+}
+
+.contact a:visited{
+    color: rgb(167, 0, 0);
+}
+
+.contact a:hover{
+    color: gray;
+} */
+
+/* @media only screen and (max-width: 600px) {
+    #navbar { background-color: rgb(73, 163, 121); }
+} */
+
+footer {
+    padding: 10px;
+    background: #000000;
+    color: white;
+    line-height: 40px;
+}
+
+footer a{
+    color: #e4e39d;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #bbb936;
+}
+
+/* 
+
+footer a:visited{
+    color: rgb(167, 0, 0);
+}
+
+ */
+  
+/* @media screen and (min-width: 768px) {
+    
+    #logo-container {
+      left: 1.2em;
+    }
+    
+    #logo-container a {
+      padding-top: 0.4em;
+    }
+
+} */
