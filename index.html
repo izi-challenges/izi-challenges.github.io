@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Portfolio Page</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
+    <!-- <nav id="myNavbar"></nav> -->
+
     <nav>
         <div id="home-logo">
-            <a href="#welcome">iZi</a>
+            <a onClick="myFunction('home')">iZi</a>
         </div>
-
+        
         <div id="menu-toggle">
             <ul id="menu">
-                <!-- <li><a href="#blog">Blog</a></li> -->
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-info">Contact</a></li>
+                <li><a onClick="myFunction('projects')">Projects</a></li>
+                <li><a onClick="myFunction('contact')">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="welcome" class="background sectionSize">
+    <section id="home" class="background sectionSize">
         <div class="top-container">
             <h1>Hey, I'm iZi<br>Full Stack Developer</h1>
             <a class="git-btn" href="#skills">Check my skills</a>
         </div>
     </section>
 
-    <section id="skills" class="sectionSize">
+    <section id="skills" class="sectionSize" style="display: none">
         <h1>Skills Section</h1>
     </section>
 
@@ -36,7 +37,7 @@
         <h1>Blog Section</h1>
     </section> -->
 
-    <div id="projects" class="projects background sectionSize">
+    <div id="projects" class="projects background sectionSize" style="display: none">
         <div class="proj-container">
             <h1>Projects:</h1>
             <a href="https://codepen.io/nobisanartist/full/KZBvEB" target="_blank" class="project project-tile">
@@ -45,12 +46,11 @@
             <a href="survey-form/surveyForm.html">
                 <p class="project-title">Survey Form</p>
             </a>
-            <!-- <a href="product-landing/productLanding.html"><p class="project-title">Product Landing Page</p></a> -->
             <p>...</p>
         </div>
     </div>
 
-    <div id="contact-info" class="contact">
+    <div id="contact-info" class="contact" style="display: none">
         <h1>Contact:</h1>
         <ul>
             <li><a id='profile-link' href="https://github.com/izi-challenges" target="_blank">GitHub</a></li>
@@ -58,8 +58,10 @@
             <li><a href="mailto:ncoder.tech@protonmail.com">E-mail</a></li>
         </ul>
     </div>
-    <footer>
+    <!-- <footer>
         <p>&copy; Created for <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a></p>
-    </footer>
+    </footer> -->
+
+    <script src="scripts.js"></script>
 </body>
 </html>

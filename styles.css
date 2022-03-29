@@ -1,5 +1,6 @@
 :root{
     --title-text: rgb(10, 63, 78);
+    --title-text-hover: rgb(21, 133, 161);
 }
 
 body {
@@ -11,8 +12,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/* NEW CSS -> START */
 
 .sectionSize{
     min-height: 55vh;
@@ -71,6 +70,7 @@ a{
 
 a:hover {
     color: gray;
+    cursor: pointer;
 }
 
 .background a {
@@ -104,45 +104,9 @@ a:hover {
     color: var(--title-text);
 }
 
-
-/* NEW CSS -> END */
-
-/* #menu {
-    position: fixed;
-    top: 3.1em;
-    height: 100vh;
-    width: 60vw;
-    right: -60vw;
-    flex-direction: column;
-    padding-top: 0.5em;
-    padding-left: 1.5em;
-    background: #ffffff;
-    -webkit-font-smoothing: antialiased;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-} */
-
-/* #navbar{
-    position: fixed;
-    text-align: left;
-    width: 100%;
-    background-color: #000000;
+#home-logo a:hover{
+    color: var(--title-text-hover);
 }
-
-#navbar li{
-    display: inline-block;
-    margin: 20px;
-    color: #FFFFFF;
-}
-
-#navbar li a,
-#navbar li a:active,
-#navbar li a:visited{
-    color: #FFFFFF;
-}
-
-#navbar li a:hover{
-    color: rgb(227, 230, 86);
-} */
 
 .proj-container{
     background: #fff;
@@ -210,10 +174,6 @@ a:hover {
     color: gray;
 } */
 
-/* @media only screen and (max-width: 600px) {
-    #navbar { background-color: rgb(73, 163, 121); }
-} */
-
 footer {
     padding: 10px;
     background: #000000;
@@ -229,23 +189,3 @@ footer a{
 footer a:hover{
     color: #bbb936;
 }
-
-/* 
-
-footer a:visited{
-    color: rgb(167, 0, 0);
-}
-
- */
-  
-/* @media screen and (min-width: 768px) {
-    
-    #logo-container {
-      left: 1.2em;
-    }
-    
-    #logo-container a {
-      padding-top: 0.4em;
-    }
-
-} */
